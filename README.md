@@ -12,7 +12,7 @@ Performing analysis on Kickstarter data to uncover trends
 
 ### As seen in the “Outcomes Based on Goal” line graph it reflected that the lower the funding goal the easier it was to meet that goal. At less than $1,000 the percentage successful was about 75% which is the highest on the graph. However, between $35,000 to $44,999 the graph spiked in successful goals to about 65%. The highest percentage failed was from $45,000 to $49,000 at approximately 80% failed. 
 
-##Challenges and Difficulties Encountered
+## Challenges and Difficulties Encountered
 
 ### Starting with examining the theater outcomes by launch date, I filtered a pivot table based on “parent category” and “years” and adding the count for the “successful”, “failed” and “canceled” outcomes. After pulling in the data to this table I was able to create a line graph to show the count of successful, failed and canceled plays during each month from January to December. I didn’t run in to any challenges but a possible challenge that could be encountered would be if the incorrect fields were selected for columns and rows during the pivot table set up. 
 ### For the outcomes based on goals analysis, in a table I created a formula using COUNTIFS() to find the number successful, failed and canceled based on different goal amounts. Then I added the number successful, failed and canceled together to equal the total projects column. Using the number successful divided by the total project I got the total percentage successful, I did this for each of the categories (failed & canceled). Using the COUNTIFS formula in Excel challenged me as I had a difficult time figuring out the criteria and range to input and communicate from the Kickstarter data. 
